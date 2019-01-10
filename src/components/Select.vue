@@ -16,7 +16,7 @@
   .v-select[dir="rtl"] .vs__actions {
     padding: 0 3px 0 6px;
   }
-  .v-select[dir="rtl"] .dropdown-toggle .clear {
+  .v-select[dir="rtl"] .v-select-dropdown-toggle .clear {
     margin-left: 6px;
     margin-right: 0;
   }
@@ -62,7 +62,7 @@
   }
 
   /* Dropdown Toggle */
-  .v-select .dropdown-toggle {
+  .v-select .v-select-dropdown-toggle {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -88,7 +88,7 @@
   }
 
   /* Clear Button */
-  .v-select .dropdown-toggle .clear {
+  .v-select .v-select-dropdown-toggle .clear {
     font-size: 23px;
     font-weight: 700;
     line-height: 1;
@@ -101,13 +101,13 @@
   }
 
   /* Dropdown Toggle States */
-  .v-select.searchable .dropdown-toggle {
+  .v-select.searchable .v-select-dropdown-toggle {
     cursor: text;
   }
-  .v-select.unsearchable .dropdown-toggle {
+  .v-select.unsearchable .v-select-dropdown-toggle {
     cursor: pointer;
   }
-  .v-select.open .dropdown-toggle {
+  .v-select.open .v-select-dropdown-toggle {
     border-bottom-color: transparent;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -268,9 +268,9 @@
   }
 
   /* Disabled state */
-  .v-select.disabled .dropdown-toggle,
-  .v-select.disabled .dropdown-toggle .clear,
-  .v-select.disabled .dropdown-toggle input,
+  .v-select.disabled .v-select-dropdown-toggle,
+  .v-select.disabled .v-select-dropdown-toggle .clear,
+  .v-select.disabled .v-select-dropdown-toggle input,
   .v-select.disabled .selected-tag .close,
   .v-select.disabled .open-indicator {
     cursor: not-allowed;
